@@ -25,7 +25,7 @@ SECRET_KEY = 'z@h@5kn*igux(=+t8)j=erh@_$c^ci8+xnw!vaz$u1jyac*oob'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['gvb-dev-production.up.railway.app', 'gvb-workflow-production.up.railway.app', '127.0.0.1', "localhost"]
+ALLOWED_HOSTS = ['*']
 
 CORS_ALLOW_ALL_ORIGINS = True
 
